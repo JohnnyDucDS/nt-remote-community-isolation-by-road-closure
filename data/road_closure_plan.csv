@@ -1,0 +1,16 @@
+obstruction_id,road_name,restriction,obstruction,endpoint_distance_m,start_node_x,start_node_y,end_node_x,end_node_y,closure_type,same_graph_node
+12106,Broadarrow 4Wd Track,Road Closed,Park Facilities Closed,104992.38989512331,-165905.38,-1772739.21,-190834.02,-1874729.23,SECTION,False
+13872,Rum Jungle Road,Road Closed,Roadworks,435.09998904139456,-110426.72,-1373626.7,-110646.53,-1373244.54,SECTION,False
+14100,Dorisvale Road,Impassable,Flooding,0.0,-48468.08,-1521927.39,-48468.08,-1521927.39,POINT,True
+14122,Limestone Gorge Road,Road Closed,Park Facilities Closed,2137.7977141231395,-171743.66,-1707832.13,-173878.65,-1707748.38,SECTION,False
+14301,Wildman River 4Wd,Road Closed,Flooding,0.0,-36973.89,-1342992.74,-36973.89,-1342992.74,POINT,True
+14673,Gorrie / Dry River Road,Impassable,Flooding,15768.92715636338,46415.68,-1644679.88,33890.01,-1635097.93,SECTION,False
+14859,Dundee Road,Impassable,Road Damage,5985.19362679532,-163440.24,-1352203.07,-162903.82,-1346260.38,SECTION,False
+15049,Kirkimbie Propacc,Impassable,Road Damage,0.0,-301675.08,-1922079.76,-301675.08,-1922079.76,POINT,True
+15137,Santa Teresa Road,Road Closed,Road Damage,30562.646821607424,336126.06,-2723501.01,328940.6,-2753218.47,SECTION,False
+15187,Jim Jim Falls Road,Road Closed,Park Facilities Closed,0.0,69486.71,-1362528.5,69486.71,-1362528.5,POINT,True
+15188,Twin Falls Road,Road Closed,Park Facilities Closed,0.0,90525.97,-1402517.89,90525.97,-1402517.89,POINT,True
+15338,Point Stuart 4Wd,Road Closed,Road Damage,0.0,-12012.09,-1291655.89,-12012.09,-1291655.89,POINT,True
+15370,Buscall Avenue,Road Closed,Roadworks,334.58649461590454,-110581.89,-1318090.4,-110913.37,-1318038.66,SECTION,False
+15372,Wishart Road,Road Closed,Roadworks,1073.8305881181957,-117994.18,-1314838.94,-116949.38,-1314592.06,SECTION,False
+15417,Sandover Highway,Road Closed,Road Damage,265768.17710763647,330502.64,-2342241.26,587125.72,-2273123.18,SECTION,False

@@ -1,0 +1,169 @@
+Community_ID,Community,raw_exit_count,external_exit_count,local_dead_end_count,largest_outside_component_size
+202,Ali Curung,11,6,5,710714
+203,Alpurrurulam,9,7,2,710347
+622,Amanbidji,2,1,1,711021
+9,Amoonguna,4,3,1,711134
+10,Ampilatwatja,2,1,1,711207
+147,Arawerr,3,3,0,711258
+20,Areyonga,2,1,1,711024
+42,Atitjere,3,3,0,711025
+458,Baniyala,1,1,0,711209
+580,Barunga,4,3,1,711075
+294,Belyuen,9,5,4,709945
+582,Binjari,2,1,1,711242
+464,Birany Birany,1,1,0,711243
+586,Bulla,6,6,0,711010
+587,Bulman,6,2,4,710892
+219,Canteen Creek,3,1,2,711186
+591,Daguragu,3,3,0,711115
+473,Dhalinybuy,3,1,2,710993
+33,Engawala,4,3,1,711135
+36,Finke,6,5,1,711136
+498,Gan Gan,3,1,2,711117
+500,Gapuwiyak,6,2,4,709587
+319,Gochan Jiny Jirra,3,2,1,711271
+329,Gunbalanya,5,3,2,710904
+514,Gunyangara,6,2,4,710821
+517,Gurrumuru,4,1,3,711107
+41,Haasts Bluff,7,6,1,711128
+43,Hermannsburg,12,7,5,710753
+600,Hodgson River Station,3,2,1,711213
+250,Imangara,6,6,0,711187
+51,Imanpa,8,2,6,710966
+63,Irrultja,4,4,0,711154
+593,Jilkminggan,4,1,3,710784
+603,Kalkarindji,7,4,3,710864
+66,Kaltukatjara,15,11,4,710728
+72,Kintore,6,6,0,711099
+608,Kybrook Farm,3,3,0,711201
+609,Lajamanu,6,5,1,711060
+86,Laramba,7,6,1,711099
+721,Likkaparta,2,1,1,711251
+362,Maningrida,16,11,5,710684
+363,Manmoyi,2,1,1,710903
+595,Manyallaluk,4,1,3,710217
+524,Mapuru,3,1,2,710955
+252,Marlinja,7,1,6,709023
+624,Minyerri,3,2,1,711192
+112,Mount Liebig,9,6,3,710490
+244,Mungkarta,2,1,1,710777
+120,Mutitjulu,9,7,2,710785
+397,Nauiyu,7,2,5,710982
+542,Ngangalala,2,2,0,711263
+404,Nganmarriyanga,10,4,6,706293
+633,Ngukurr,8,5,3,710166
+639,Nitjpurru,3,2,1,711044
+127,Nturiya,3,1,2,710616
+549,Numbulwar,4,4,0,711149
+128,Nyirripi,14,9,5,710237
+26,Orrtipa-Thurra,5,2,3,711085
+131,Papunya,19,14,5,710460
+410,Peppimenarti,6,3,3,710868
+138,Pmara Jutunta,8,3,5,711105
+550,Ramingining,4,2,2,710693
+641,Rittarangu,1,1,0,711108
+258,Robinson River,2,1,1,711060
+642,Rockhole,9,3,6,710931
+469,Rorruwuy,3,3,0,711237
+145,Santa Teresa,11,4,7,710083
+264,Tara,6,2,4,710399
+148,Titjikala,13,10,3,709791
+426,Wadeye,5,5,0,710863
+174,Wallace Rockhole,4,1,3,711185
+256,Wandangula,4,2,2,711154
+654,Weemol,2,2,0,711241
+186,Willowra,5,3,2,710880
+187,Wilora,4,4,0,711120
+434,Woodycupaldiya,4,1,3,710914
+581,Wugularr,9,2,7,710522
+227,Wutunugurra,2,2,0,711138
+658,Yarralin,6,5,1,711163
+571,Yathalamarra,1,1,0,711272
+576,Yirrkala,6,1,5,710903
+197,Yuelamu,5,4,1,711119
+198,Yuendumu,10,7,3,711057
+10153,Adelaide River,14,4,10,710810
+916,Angatyepe,7,4,3,711105
+168,Arlparra,6,6,0,711047
+968,Armorran,2,1,1,711247
+919,Arrillhjere,4,3,1,711253
+146,Atnarara,4,3,1,711209
+10677,Batchelor,7,5,2,710933
+25,Blackwater,8,6,2,711191
+11092,Borroloola,14,10,4,710815
+24904,Brumby Plains,2,2,0,711281
+949,Bunhanura,2,1,1,711142
+12194,Daly Waters,3,3,0,711053
+477,Dhipirrinjura,1,0,1,711288
+981,Djirrbiyak,3,2,1,711245
+46,Dons Bore,2,2,0,711278
+34,Eight Mile,5,4,1,710729
+920,Elitjia,6,4,2,711232
+12641,Elliott,13,13,0,710857
+57,Five Mile,3,3,0,711269
+489,Galawdjapin,3,1,2,711228
+963,Garanydjirr,1,1,0,711274
+973,Hingstons Place,8,5,3,711046
+800,Hunters Camp,3,3,0,711260
+52,Importna,6,6,0,711220
+932,Inbina Atwatye,8,6,2,710838
+82,Inkwelaye,3,2,1,711253
+771,Ipalala,1,1,0,711282
+921,Irriltyere (A),11,6,5,711088
+922,Irriltyere (B),1,1,0,711254
+935,Itchy Koo Park,3,3,0,711166
+923,Iteyepintye,6,2,4,711141
+924,Itperlyenge,9,6,3,711119
+824,Jemelke,5,4,1,710921
+67,Kaporilya,7,5,2,711151
+14240,Kulgera,6,4,2,711146
+391,Kungarrewarl,5,3,2,711000
+718,Kuy,1,1,0,711271
+925,Kwale Kwale,3,3,0,711175
+14359,Larrimah,5,3,2,711071
+856,Lizard Bore,2,2,0,711275
+614,Lul-Tju,2,1,1,711190
+94,Lyilyalanama,8,6,2,711151
+897,Mandedjkadjang,2,1,1,711131
+23547,Mataranka,12,6,6,710824
+872,Merral Ntarrakala,5,5,0,711217
+106,Motna's,12,12,0,711130
+875,Mount Twellar,1,1,0,711272
+380,Mudginberri,2,1,1,711134
+801,Mumukala,2,1,1,711229
+648,Muruning,5,4,1,710872
+678,Myatt,4,3,1,710965
+886,Nadilmuk,1,1,0,711274
+770,Ntakarra,9,3,6,710704
+281,Paradise Farm,3,3,0,711276
+926,Payeperrentye (B),3,2,1,711171
+927,Perte Therre,6,5,1,711086
+133,Phillipson Bore,2,1,1,710935
+17626,Pine Creek,19,16,3,710363
+861,Rutjingka,4,4,0,711249
+18964,Ti Tree,5,5,0,710988
+18974,Timber Creek,6,3,3,710767
+149,Tjamangkurra,6,5,1,711192
+762,Tjintirtjintirpa,3,2,1,710744
+928,Tnerte,13,11,2,711049
+155,Tnyimipurta,3,3,0,711251
+929,Twetye (A),14,10,4,710920
+930,Twetye (B),11,7,4,711081
+931,Tywenpe (A),5,4,1,710802
+933,Tywenpe (C),11,10,1,711096
+934,Tywenpe (D),2,2,0,711221
+760,Ulambara,6,6,0,711209
+162,Ulpanyali,2,2,0,711260
+772,Ulpunda,4,4,0,711212
+711,Undoolya Bore,5,4,1,711205
+908,Wakurlpu,8,7,1,711205
+178,Wanmarra,1,1,0,711247
+180,Warumpi,2,2,0,711267
+877,Wataru,4,2,2,711105
+952,Wiitin,3,2,1,711186
+432,Wilgi,2,1,1,711153
+275,Wollogorang,3,1,2,711238
+707,Wunara,3,3,0,711221
+817,Wurlbu,2,2,0,711242
+569,Yanungbi,2,1,1,711154
+939,Yartalu Yartalu,1,1,0,711276
