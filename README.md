@@ -159,6 +159,7 @@ Service roads are also retained because some may provide vehicle access. Local s
 
 From this point onward, the analysis uses the filtered **vehicle-road layer**.
 <img width="666" height="964" alt="image" src="https://github.com/user-attachments/assets/3136bf36-8011-4f6f-8bd2-eecd7ada0557" />
+
 (195 selected remote communities and vehicle road network)
 
 
@@ -188,6 +189,21 @@ A **connected component** is a group of nodes that can reach one another through
 A diagnostic baseline was also produced to show which modeled road component each community was associated with.
 <img width="486" height="244" alt="image" src="https://github.com/user-attachments/assets/e21aaf02-9334-43c7-bc14-b4d1faf0c518" />
 
+## Analysis Scope
+
+The source community dataset contains 195 communities.
+
+For this road-isolation model, only communities with:
+
+`Accessible by road = 1`
+
+are included in the NetworkX vehicle-road analysis.
+
+Communities recorded as `Accessible by road = 0` or `0.5` were reviewed separately in QGIS and, in this dataset, corresponded to island communities. These communities were excluded from the vehicle-road isolation model because their accessibility depends on other transport modes such as air or sea rather than the mainland road network.
+
+This leaves 168 road accessible communities for the analysis.
+
+<img width="766" height="519" alt="image" src="https://github.com/user-attachments/assets/5e319a11-bcd9-4da4-a2ba-9a7e275dff5d" />
 
 ---
 
