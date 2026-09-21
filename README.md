@@ -718,14 +718,7 @@ This repository is intended to share the analysis results and methodology rather
 | ├── community_external_exits.csv
 | ├── community_road_isolation_final.csv
 | └── community_external_exit_summary.csv
-│
-├── qgis/
-│   └── QGIS project and selected analysis layers
-│
-└── screenshots/
-    ├── QGIS validation maps
-    ├── CSV result screenshots
-    └── analysis-result screenshots used in this README
+└── QGIS project and selected analysis layers
 ```
 
 The Python development scripts are intentionally not included.
