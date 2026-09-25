@@ -114,6 +114,10 @@ is required for this road-isolation analysis.
 The road layer is also reprojected to EPSG:9473 so all geometry calculations use the same metre-based CRS.
 
 ### Step 0E — Filter to vehicle usable roads
+```text
+run 
+filter_vehicle_road_network.py
+```
 
 The analysis keeps road classes that a vehicle could plausibly use.
 
@@ -166,6 +170,10 @@ From this point onward, the analysis uses the filtered **vehicle-road layer**.
 ---
 
 ## Step 1 — Convert the OSM road network into a NetworkX graph
+```text
+run
+build_road_graph_pkl.py
+```
 
 The filtered vehicle-road layer is converted into a graph.
 
@@ -215,6 +223,11 @@ This is not an official community boundary. It is an analysis zone used to reduc
 
 Every vehicle road crossing the 1 km boundary becomes a **raw exit candidate**.
 
+```text
+run
+build_communities_access_zones.py
+```
+
 Main outputs:
 
 ```text
@@ -247,6 +260,11 @@ A ─── X ─── B
 The original edge `A-B` is replaced by `A-X` and `X-B`.
 
 If the crossing coordinate already exists as a graph node, that existing node is reused rather than creating another node at the same location.
+
+```text
+run
+insert_communities_access_node_buffer.py
+```
 
 Main outputs:
 
@@ -299,6 +317,11 @@ Exit 3 → small component → LOCAL_OR_DEAD_END
 
 Only `EXTERNAL_EXIT` nodes are used in the final isolation test.
 
+```text
+run
+classify_external_exits_all.py
+```
+
 Main outputs:
 
 ```text
@@ -336,6 +359,12 @@ OSM road ─────────── X ───────────
 ```
 
 A larger match distance does not automatically mean the record is wrong, but it should receive more attention during validation. Intersections, parallel roads and approximate source coordinates can cause the nearest-road match to select the wrong OSM feature.
+
+```text
+run
+get_road_repots.py
+prepare_road_closure_endpoints.py
+```
 
 Main outputs:
 
@@ -393,6 +422,11 @@ so the net graph change is:
 +1 edge
 ```
 
+```text
+run
+insert_road_closure.py
+```
+
 Main outputs:
 
 ```text
@@ -423,6 +457,11 @@ For a SECTION closure:
 
 ```text
 START S ======================== E END
+```
+
+```text
+run
+classify_road_closure.py
 ```
 
 Main output:
@@ -507,6 +546,11 @@ A candidate path is marked:
 `LOOKS GOOD` means the path passes the automatic checks; it does not guarantee that the route is correct.
 
 Very long closures can still be manually inspected even when they pass the rules.
+
+```text
+run
+find_section_closure_path.py
+```
 
 Main outputs:
 
@@ -595,6 +639,11 @@ Removing both edges prevents travel through the closure point.
 
 This does not mean two separate roads were closed. It means the original road edge was split into two graph edges around the inserted closure node.
 
+```text
+run
+block_point_closures.py
+```
+
 Main outputs:
 
 ```text
@@ -623,6 +672,11 @@ A ─ S               E ─ B
 ```
 
 Only the validated section path is removed; the entire connected component is not removed.
+
+```text
+run
+block_section_closures.py
+```
 
 Main outputs:
 
@@ -667,6 +721,11 @@ For each road-accessible community:
 - **ACCESS_REMAINS** — at least one valid external exit still connects to the wider modeled road network.
 - **POTENTIAL_ROAD_ISOLATION** — external access existed in the normal graph, but every valid external exit is disconnected in the event graph.
 - **BASELINE_REVIEW** — no valid external connection existed in the modeled road network before the current closure event, so the event is not treated as the cause.
+
+- ```text
+run
+test_community_isolation_final.py
+```
 
 <img width="466" height="683" alt="image" src="https://github.com/user-attachments/assets/2236a5e6-0440-4cfe-a834-5bea934d2b76" />
 
